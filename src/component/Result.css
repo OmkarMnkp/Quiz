@@ -1,0 +1,9 @@
+
+.result-container {
+    background-color: grey;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin: auto;
+}
