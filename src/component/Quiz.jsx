@@ -12,8 +12,6 @@ const Quiz = () => {
 
   const navigate = useNavigate()
 
-
-
   // Handles option change
   const handleOptionChange = (questionId, selectedOption) => {
     setSelectedAnswers((prev) => ({
@@ -29,7 +27,7 @@ const Quiz = () => {
     }
   };
 
-  // final score
+  //  final score 
   const handleResult =()=> {
     let score =0;
     Questions.forEach((q)=>{
