@@ -12,7 +12,7 @@ const Result = () => {
 
     // get score from localstorage
     const score = localStorage.getItem("quizScore") || 0;
-    const total = localStorage.getItem("totalQuestions")||0;
+    const total = localStorage.getItem("totalQuestions")||10;
 
 
     const Handleretake = () => {
@@ -26,6 +26,7 @@ const Result = () => {
     return (
         <div className="result-container">
             <h2>Score</h2>
+            {/* final score */}
             <p>Your final Score is :{score}/{total}</p>
             <h4> Want to retake the Quiz <p onClick={Handleretake}>Retake</p> </h4>
         </div>

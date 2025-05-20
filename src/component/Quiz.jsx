@@ -4,6 +4,8 @@ import './Quiz.css';
 import { useNavigate } from "react-router-dom";
 
 const Quiz = () => {
+
+  // hook usestate
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
